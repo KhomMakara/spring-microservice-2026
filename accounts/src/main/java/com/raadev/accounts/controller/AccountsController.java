@@ -45,6 +45,7 @@ public class AccountsController {
     @Value("${build.version}")
     private String buildVersion;
 
+
     @Autowired
     private Environment environment;
 
